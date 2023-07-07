@@ -1,0 +1,110 @@
+/*
+font-family: 'Amita', cursive;
+font-family: 'MedievalSharp', cursive;
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62,5%;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+body {
+    background: linear-gradient(45deg, #C26028 0%, #F2A77C 100%) fixed;
+    display: flex;
+    background-repeat: repeat;
+    place-items: center;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+main {
+    display: table;
+    width: 20rem;
+    height: 30rem;
+
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 2rem 5rem 0 rgba(0, 0, 0, 0.80);
+}
+
+div {
+    display: table-cell;
+    font-family: 'Amita', cursive, sans-serif;
+    vertical-align: top;
+    padding: 1rem 2rem ;
+    
+    max-height: 200rem;
+    font-weight: 900;
+    font-size: 1.2rem;
+    color: #131420;
+    text-align: center;
+    
+}
+
+h1 {
+    width: 20rem;
+    padding: .5rem 2rem 0rem 2rem;
+    
+    font-size: 1.8rem;
+    color:black;
+    font-weight: 700;
+    
+}
+
+p {
+    font-size: 1.4rem;
+    color: #3c3f95;
+    font-weight: 900;
+    
+}
+
+#frase{
+    word-break: break-word;
+
+    font-family: 'Amita', cursive;
+    
+    font-weight: lighter;
+    font-size: 1.9rem;
+    color: rgb(164, 23, 23);
+}
+
+#mirim {
+    
+    width: 15rem;
+    height: 21rem;
+    cursor: pointer;
+    
+}
+
+#shoteyes {
+    width: 8rem;
+    height: 8rem;
+}
+
+#mirim:hover,
+#mirim:focus {
+    transform: translate(0.7px) scale(1.1);
+    transition: 7ms;
+}
+
+button {
+    background-color: #34355b;
+    color: #fff;
+    width: 16rem;
+    height: 100%;
+    font-size: .9rem;
+    border: none;
+    border-radius: .6rem;
+    padding: 0.6rem;
+}
+
